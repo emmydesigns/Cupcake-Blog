@@ -1,0 +1,60 @@
+body {
+    border: 20px solid plum;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url(unicorn-cupcake.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto;
+    /* opacity: .6; */
+}
+
+div {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: right;
+    font-size: 50px; 
+    margin-right: 20px;
+    padding-bottom: 2px;
+    color:  rgb(218, 72, 218);
+    border-bottom: 3px solid rgb(218, 72, 218);
+    border-width: thin;
+    margin-left: 400px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2c3e50;
+    text-transform: capitalize;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #3498db;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+p:first-of-type {
+    border-left: 5px solid plum;
+    padding-left: 5px;
+}
+
+/*
+border color: #bdc3c7
+date color: #3498db
+h2 color: #2c3e50
+font: source sans pro
+
+
+body: 20 px border
+left border turned on; pay attention to margins, padding, alignment
+date -> cps, letter spacing; hr element (search HR styles)
+*/
